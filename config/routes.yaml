@@ -1,0 +1,10 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+home_index:
+    path: /
+    controller: App\Controller\HomeController::index
+
+    app_service:
+    path: /service/{name}
+    controller: App\Controller\ServiceController::showService
